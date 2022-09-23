@@ -11,6 +11,7 @@ public class Truck extends Vehicle implements Rideable{
 
     @Override
     public int milesPerHour() {
-        return 50;
+        int intSpeed = (int) getSpeed();
+        return intSpeed;
     }
 }

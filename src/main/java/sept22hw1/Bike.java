@@ -12,6 +12,7 @@ public class Bike extends Vehicle implements Rideable{
 
     @Override
     public int milesPerHour() {
-        return 15;
+        int intSpeed = (int) getSpeed();
+        return intSpeed;
     }
 }

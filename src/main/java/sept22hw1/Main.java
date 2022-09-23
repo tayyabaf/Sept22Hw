@@ -1,6 +1,5 @@
 package sept22hw1;
 
-import java.sql.SQLOutput;
 
 public class Main {
 
